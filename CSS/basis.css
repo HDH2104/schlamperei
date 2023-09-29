@@ -1,0 +1,44 @@
+/* Typografisches */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Die font-size legt die Schriftgröße fest */
+    font-size: 60px;
+    text-align: center;
+    background-color: lightblue;
+    color: #0837b9;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+div {
+    width: 1000px;
+    background-color: lightseagreen;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+
+/*CSS Layout */
+.left {
+    float: left;
+}
+
+/*zentriert die unteren Bilder*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
